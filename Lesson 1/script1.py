@@ -3,7 +3,7 @@ def capitalize(s: str):
     return " ".join([i.capitalize() for i in s.split(" ")])
 # task 2
 
-
+#%%
 def character_counter(s: str):
     import collections
     c = collections.Counter()
